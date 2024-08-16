@@ -6,6 +6,6 @@
 
 ## Markdown from Git
 - adapt `repo_url`, `file_path` in `markdownAsImageFromGit.py`
-- set `local_file_path` in `settings.json`
+- set filepath to MarkdownImage.png in `settings.json`
 
 
