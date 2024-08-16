@@ -39,7 +39,7 @@ def markdown_to_image(md_file_path, output_image_path):
     # Use Html2Image to convert HTML to image
     hti.screenshot(html_str=html_with_css, save_as=output_image_path, size=(448, 290))
     
-def fetch_markdown_from_repo(repo_url, file_path, local_dir='/home/pi/Documents/MarkdownRepo'):
+def fetch_markdown_from_repo(repo_url, file_path, local_dir='/home/pi/InkycalHelper/MarkdownRepo'):
     # Clone the repository into the local directory
     if not os.path.exists(local_dir):
         Repo.clone_from(repo_url, local_dir)

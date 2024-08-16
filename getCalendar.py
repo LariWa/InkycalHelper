@@ -3,7 +3,7 @@ from requests.auth import HTTPBasicAuth
 import time
 # Define the URL and local file path
 url = "http://ds218.local/caldav/calendar/home/"
-local_file_path = "/home/pi/Documents/calendar.ics"
+local_file_path = "/home/pi/InkycalHelper/calendar.ics"
 username = 'calendar'
 password = 'syncWithRaspi'
 
